@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to Our Company</h1>
+    <img style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="data:image/png;base64,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">
+    <h2>Employee List</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Salary</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>001</td>
+            <td>$50,000</td>
+            <td rowspan="2">123 Main St</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>002</td>
+            <td>$55,000</td>
+        </tr>
+        <tr>
+            <td>Emily Johnson</td>
+            <td>003</td>
+            <td>$60,000</td>
+            <td>456 Elm St</td>
+        </tr>
+    </table>
+
+    <h2>Promotion List</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>New Position</th>
+            <th>Address</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>Senior Developer</td>
+            <td rowspan="2">123 Main St</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>Team Lead</td>
+        </tr>
+        <tr>
+            <td>Emily Johnson</td>
+            <td>Project Manager</td>
+            <td>456 Elm St</td>
+        </tr>
+    </table>
+
+    <a href="https://www.facebook.com/profile.php?id=100083225776186">About MD. Bellal </a>
+</section>
+
+</body>
+</html>
